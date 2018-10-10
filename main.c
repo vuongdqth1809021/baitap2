@@ -1,10 +1,11 @@
 #include <stdio.h>
-float luongThang13(float soNamKinhNghiem,float SoNamCongHien);
 
 
 int main() {
-    char a;
-    float luongChinhThuc, soNamKinhNghiem, soNamCongHien,luongThuong;
+    char luachon = 'co';'khong';
+    float luongThang13(float soNamKinhNghiem, float SoNamCongHien);
+    float luongChinhThuc, soNamKinhNghiem, soNamCongHien, luongThuong;
+   luongThang13 = luongChinhThuc + luongThuong;
     printf("Vui long nhap so nam kinh nghiem cua ban : \n");
     scanf("%f", &soNamKinhNghiem);
     if (soNamKinhNghiem < 2) {
@@ -23,26 +24,26 @@ int main() {
     printf("Vui long nhap so nam cong hien cua ban : ");
     scanf("%f", &soNamCongHien);
     if (soNamCongHien < 1) {
-        luongThuong= luongChinhThuc * 30 / 100;
-        printf("luong thuong cua ban la %f",luongThuong);
+        luongThuong = luongChinhThuc * 30 / 100;
+        printf("luong thuong cua ban la %f", luongThuong);
     }
     if (2 >= soNamCongHien >= 1) {
-        luongThuong= luongChinhThuc / 2;
-        printf("luong thuong cua ban la %f",luongThuong);
+        luongThuong = luongChinhThuc / 2;
+        printf("luong thuong cua ban la %f", luongThuong);
     }
     if (5 >= soNamCongHien > 2) {
-        luongThuong= luongChinhThuc;
-        printf("luong thuong cua ban la %f",luongThuong);
+        luongThuong = luongChinhThuc;
+        printf("luong thuong cua ban la %f", luongThuong);
     }
     if (soNamCongHien > 5) {
-        luongThuong= luongChinhThuc * 2;
-        printf("luong thuong cua ban la %f trieu",luongThuong);
+        luongThuong = luongChinhThuc * 2;
+        printf("luong thuong cua ban la %f trieu", luongThuong);
     }
-    printf("Luong thang 13 cua ban la %f \n",luongThang13(soNamKinhNghiem,soNamCongHien));
-}
-//printf("Ban muon tiep tuc chuong trinh khong \n")
-//scanf("%")
+    printf("Luong thang 13 cua ban la %f \n", luongThang13(soNamKinhNghiem, soNamCongHien));
 
+    printf("Ban muon tiep tuc chuong trinh khong \n");
+    scanf("%c", &luachon);
+}
 
 
 
